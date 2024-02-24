@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TopDrakor" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+<!--    <style name="Theme.TopDrakor" parent="Theme.MaterialComponents.DayNight.DarkActionBar" >-->
+<!--        <item name="colorPrimary">@color/crayola</item>-->
+<!--    </style>    -->
+    <style name="Theme.TopDrakor" parent="Base.Theme.TopDrakor" >
+        <item name="colorPrimary">@color/crayola</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar"/>
+
+</resources>

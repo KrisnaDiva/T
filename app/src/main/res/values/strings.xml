@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">TopDrakor</string>
+    <string name="app_name1">Top</string>
+    <string name="app_name2">Drakor</string>
+    <string name="drakor_name_temp">Drakor Name</string>
+    <string name="drakor_desctiption_temp">Korean Drama - 2029, 19 episodes</string>
+    <string name="drakor_synopsis_temp">nam aliquam sem et tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut\n\n faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in metus vulputate eu scelerisque felis \n\nimperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et</string>
+    <string name="darkor_rating_temp">10.00</string>
+    <string name="darkor_users_temp">1,000,000 users</string>
+    <string name="drakor_episode_temp">10 episodes</string>
+    <string name="drakor_year_temp">(2029)</string>
+
+    <integer-array name="data_photo">
+        <item>@drawable/twinkling_watermelon</item>
+        <item>@drawable/move_to_heaven</item>
+        <item>@drawable/weak_hero_class_one</item>
+        <item>@drawable/hospital_playlist_season_two</item>
+        <item>@drawable/moving</item>
+        <item>@drawable/flower_of_evil</item>
+        <item>@drawable/alchemy_of_souls</item>
+        <item>@drawable/hospital_playlist</item>
+        <item>@drawable/reply_1988</item>
+        <item>@drawable/my_mister</item>
+    </integer-array>
+
+    <string-array name="data_name">
+        <item>Twinkling Watermelon</item>
+        <item>Move To Heaven</item>
+        <item>Weak Hero Class 1</item>
+        <item>Hospital Playlist Season 2</item>
+        <item>Moving</item>
+        <item>Flower Of Evil</item>
+        <item>Alchemy Of Souls</item>
+        <item>Hospital Playlist</item>
+        <item>Reply 1988</item>
+        <item>My Mister</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Korean Drama - 2023, 16 episodes</item>
+        <item>Korean Drama - 2021, 10 episodes</item>
+        <item>Korean Drama - 2022, 8 episodes</item>
+        <item>Korean Drama - 2021, 12 episodes</item>
+        <item>Korean Drama - 2023, 20 episodes</item>
+        <item>Korean Drama - 2020, 16 episodes</item>
+        <item>Korean Drama - 2022, 20 episodes</item>
+        <item>Korean Drama - 2020, 12 episodes</item>
+        <item>Korean Drama - 2015, 20 episodes</item>
+        <item>Korean Drama - 2018, 16 episodes</item>
+    </string-array>
+
+    <string-array name="data_synopsis">
+        <item>In 2023, Eun Gyeol is a CODA (Child of Deaf Adults) high-school student, but he has a passion for music. During the day, he is a studious model pupil, but at night, he rocks out as a guitarist in a band. But when he stumbles across a strange yet alluring music store, he goes hurtling back in time to 1995.</item>
+        <item>Han Geu Roo is an autistic 20-year-old. He works for his father’s business “Move To Heaven,” a company that specializes in crime scene cleanup, where they also collect and arrange items left by deceased people, and deliver them to the bereaved family.\n\nWhen Geu Roo\'s father dies, Geu Roo\'s guardianship passes to his uncle, ex-convict Cho Sang Gu, who is a martial arts fighter in underground matches.</item>
+        <item>Yeon Shi Eun is a model student who ranks at the top of his high school. Physically, Yeon Shi Eun appears weak, but by using his wits and psychology, he fights against the violence that takes place inside and outside of his school.</item>
+        <item>Everyday is extraordinary for five doctors and their patients inside a hospital, where birth, death and everything in between coexist.</item>
+        <item>Kim Bong Seok, Jang Hee Soo, and Lee Gang Hoon, seemingly typical high school students, bear extraordinary inherited powers. Bong Seok can fly, Hee Soo possesses exceptional athleticism and rapid injury recovery, and Gang Hoon wields uncanny strength and speed.</item>
+        <item>Although Baek Hee Sung is hiding a dark secret surrounding his true identity, he has established a happy family life and a successful career. He is a loving husband and doting father to his young daughter. </item>
+        <item>Set in a fictional country called Daeho that does not exist in history or on maps, it is about the love and growth of young mages as they overcome their twisted fates due to a forbidden magic spell known as the "alchemy of souls", which allows souls to switch bodies.</item>
+        <item>The stories of people going through their days are seemingly ordinary but actually special at the hospital, a place known as the microcosm of life, where someone is being born and someone\'s life meets its ending. The five doctors are long-time friends of 20 years who started their undergrad in 1999 in the same medical school and now are colleagues in the same hospital and have a band together.</item>
+        <item>Five childhood friends, who all live in the same Ssangmundong neighborhood of Seoul, lean on each other to survive their challenging teen years and set a path for their futures. Sung Deok Sun struggles for attention as the middle child in her poor family while also carrying the burden of her 999th ranking in school. </item>
+        <item>Park Dong Hoon is a middle-aged engineer who is married to attorney Kang Yoon Hee. However, his life is not that happy as he has two unemployed brothers, Sang Hoon and Gi Hoon, who rely on him. Moreover, his wife is secretly having an affair with CEO Do Joon Yeong, his current boss and college junior.</item>
+    </string-array>
+
+    <string-array name="data_year">
+        <item>2023</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2023</item>
+        <item>2020</item>
+        <item>2022</item>
+        <item>2020</item>
+        <item>2015</item>
+        <item>2018</item>
+    </string-array>
+
+</resources>

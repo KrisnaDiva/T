@@ -29,5 +29,7 @@
     <style name="Color">
         <item name="android:textColor">@color/phillipine_silver</item>
     </style>
-
+    <style name="BackgroundColor">
+        <item name="android:background">@color/chinese_black</item>
+    </style>
 </resources>

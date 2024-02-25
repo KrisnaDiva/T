@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.krisna.diva.topdrakor.databinding.ActivityDetailBinding
 
@@ -21,6 +22,8 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val drakor = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra<Drakor>(DATA, Drakor::class.java)
@@ -48,6 +51,15 @@ class DetailActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(share, "Share Link"))
 
         }
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            finish()
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 }

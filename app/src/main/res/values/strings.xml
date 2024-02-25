@@ -85,6 +85,7 @@
     <string name="about">About</string>
     <string name="my_name">Krisna Diva</string>
     <string name="my_email">krisnadiva0412@gmail.com</string>
+
     <string-array name="data_episode">
         <item>16</item>
         <item>10</item>
@@ -110,6 +111,7 @@
         <item>Nov 6, 2015 - Jan 16, 2016</item>
         <item>Mar 21, 2018 - May 17, 2018</item>
     </string-array>
+
     <string-array name="data_duration">
         <item>1 hr. 10 min.</item>
         <item>52 min.</item>

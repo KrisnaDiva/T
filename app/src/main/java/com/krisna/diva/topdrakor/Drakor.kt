@@ -14,4 +14,4 @@ data class Drakor(
     val episodes: String,
     val aired: String,
     val duration: String
-): Parcelable
+) : Parcelable

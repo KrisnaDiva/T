@@ -14,18 +14,15 @@ import androidx.recyclerview.widget.RecyclerView
 import com.krisna.diva.topdrakor.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-//    private lateinit var rvDrakors: RecyclerView
     private val list = ArrayList<Drakor>()
     private lateinit var binding: ActivityMainBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//        rvDrakors = findViewById(R.id.rv_drakors)
         binding.rvDrakors.setHasFixedSize(true)
         list.addAll(getListDrakors())
         showRecyclerList()
@@ -35,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.about_page -> {
@@ -82,7 +80,6 @@ class MainActivity : AppCompatActivity() {
         val listDrakorAdapter = ListDrakorAdapter(list)
         binding.rvDrakors.adapter = listDrakorAdapter
 
-        // membuka detail
         listDrakorAdapter.setOnItemClickCallback { drakor ->
             val moveWithObjectIntent = Intent(this@MainActivity, DetailActivity::class.java)
             moveWithObjectIntent.putExtra(DetailActivity.DATA, drakor)

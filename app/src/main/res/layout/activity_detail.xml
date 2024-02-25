@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundColor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailActivity"
-    style="@style/BackgroundColor">
+    tools:context=".DetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="10dp">
-
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -36,9 +33,10 @@
             <ImageButton
                 android:id="@+id/action_share"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_alignParentEnd="true"
                 android:layout_gravity="center_vertical"
+                android:layout_marginEnd="0dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:src="@drawable/share" />
 
@@ -54,8 +52,8 @@
 
         <TextView
             style="@style/TitleTextView"
-            android:layout_marginBottom="5dp"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
             android:text="@string/synopsis" />
 
         <TextView
@@ -89,5 +87,6 @@
         <TextView
             android:id="@+id/tv_duration"
             style="@style/ContentTextView" />
+
     </LinearLayout>
 </ScrollView>

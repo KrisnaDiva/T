@@ -82,6 +82,9 @@
     <string name="episodes">Episodes</string>
     <string name="aired">Aired</string>
     <string name="synopsis">Synopsis</string>
+    <string name="about">About</string>
+    <string name="my_name">Krisna Diva</string>
+    <string name="my_email">krisnadiva0412@gmail.com</string>
     <string-array name="data_episode">
         <item>16</item>
         <item>10</item>
@@ -119,7 +122,7 @@
         <item>1 hr. 35 min.</item>
         <item>1 hr. 17 min.</item>
     </string-array>
-    
+
     <string-array name="data_genres">
         <item>Romance, Youth, Drama, Fantasy</item>
         <item>Life, Drama</item>

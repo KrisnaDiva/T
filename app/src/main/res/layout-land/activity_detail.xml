@@ -47,7 +47,7 @@
         <ImageView
             android:id="@+id/iv_image"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="450dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitXY"
             tools:src="@tools:sample/avatars" />

@@ -9,8 +9,9 @@
     android:layout_marginStart="8dp"
     android:layout_marginTop="4dp"
     android:layout_marginEnd="8dp"
-    android:layout_marginBottom="4dp"
-    card_view:cardCornerRadius="4dp">
+    android:layout_marginBottom="15dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="15dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -19,37 +20,39 @@
 
         <ImageView
             android:id="@+id/iv_drakor_photo"
-            android:layout_width="70dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
             android:scaleType="centerCrop"
             card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.492"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.045"
             tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tv_drakor_name"
-            android:layout_width="0dp"
+            style="@style/Color"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_toEndOf="@id/iv_drakor_photo"
+            android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="1"
             android:textSize="17sp"
             android:textStyle="bold"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toEndOf="@+id/iv_drakor_photo"
-            card_view:layout_constraintTop_toTopOf="@+id/iv_drakor_photo"
+            card_view:layout_constraintEnd_toEndOf="@+id/iv_drakor_photo"
+            card_view:layout_constraintStart_toStartOf="@+id/iv_drakor_photo"
+            card_view:layout_constraintTop_toBottomOf="@+id/iv_drakor_photo"
             tools:text="@string/drakor_name_temp" />
 
         <TextView
             android:id="@+id/tv_drakor_description"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:textColor="@color/silver_foil"
+            android:textColor="@color/sonic_silver"
             card_view:layout_constraintEnd_toEndOf="@+id/tv_drakor_name"
             card_view:layout_constraintStart_toStartOf="@+id/tv_drakor_name"
             card_view:layout_constraintTop_toBottomOf="@+id/tv_drakor_name"
@@ -57,12 +60,12 @@
 
         <TextView
             android:id="@+id/tv_drakor_synopsis"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="3dp"
+            style="@style/Color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="3"
-            card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="@+id/tv_drakor_description"
             card_view:layout_constraintStart_toStartOf="@+id/tv_drakor_description"
             card_view:layout_constraintTop_toBottomOf="@+id/tv_drakor_description"

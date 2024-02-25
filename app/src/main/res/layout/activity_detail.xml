@@ -46,15 +46,20 @@
         <ImageView
             android:id="@+id/iv_image"
             android:layout_width="match_parent"
-            android:layout_height="575dp"
+            android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
-            android:scaleType="fitCenter"
+            android:scaleType="centerCrop"
             tools:src="@tools:sample/avatars" />
+
+        <TextView
+            style="@style/TitleTextView"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/synopsis" />
 
         <TextView
             android:id="@+id/tv_synopsis"
             style="@style/ContentTextView"
-            android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
             android:text="@string/drakor_synopsis_temp" />
 

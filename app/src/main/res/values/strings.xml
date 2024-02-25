@@ -81,6 +81,7 @@
     <string name="duration">Duration</string>
     <string name="episodes">Episodes</string>
     <string name="aired">Aired</string>
+    <string name="synopsis">Synopsis</string>
     <string-array name="data_episode">
         <item>16</item>
         <item>10</item>

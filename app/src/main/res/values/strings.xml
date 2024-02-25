@@ -75,4 +75,61 @@
         <item>2018</item>
     </string-array>
 
+    <string name="details">Details</string>
+    <string name="title">Title</string>
+    <string name="genres">Genres</string>
+    <string name="duration">Duration</string>
+    <string name="episodes">Episodes</string>
+    <string name="aired">Aired</string>
+    <string-array name="data_episode">
+        <item>16</item>
+        <item>10</item>
+        <item>8</item>
+        <item>12</item>
+        <item>20</item>
+        <item>16</item>
+        <item>20</item>
+        <item>12</item>
+        <item>20</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="data_aired">
+        <item>Sep 25, 2023 - Nov 14, 2023</item>
+        <item>May 14, 2021</item>
+        <item>Nov 18, 2022</item>
+        <item>Jun 17, 2021 - Sep 16, 2021</item>
+        <item>Aug 9, 2023 - Sep 20, 2023</item>
+        <item>Jul 29, 2020 - Sep 23, 2020</item>
+        <item>Jun 18, 2022 - Aug 28, 2022</item>
+        <item>Mar 12, 2020 - May 28, 2020</item>
+        <item>Nov 6, 2015 - Jan 16, 2016</item>
+        <item>Mar 21, 2018 - May 17, 2018</item>
+    </string-array>
+    <string-array name="data_duration">
+        <item>1 hr. 10 min.</item>
+        <item>52 min.</item>
+        <item>40 min.</item>
+        <item>1 hr. 40 min.</item>
+        <item>47 min.</item>
+        <item>1 hr. 10 min.</item>
+        <item>1 hr. 20 min.</item>
+        <item>1 hr. 30 min.</item>
+        <item>1 hr. 35 min.</item>
+        <item>1 hr. 17 min.</item>
+    </string-array>
+    
+    <string-array name="data_genres">
+        <item>Romance, Youth, Drama, Fantasy</item>
+        <item>Life, Drama</item>
+        <item>Action, Youth, Drama</item>
+        <item>Romance, Life, Drama, Medical</item>
+        <item>Action, Thriller, Mystery, Supernatural</item>
+        <item>Thriller, Romance, Crime, Melodrama</item>
+        <item>Action, Historical, Romance, Fantasy</item>
+        <item>Romance, Life, Drama, Medical</item>
+        <item>Comedy, Romance, Life, Youth</item>
+        <item>Psychological, Life, Drama</item>
+    </string-array>
 </resources>
+

@@ -1,5 +1,6 @@
 package com.krisna.diva.topdrakor
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
@@ -15,6 +16,7 @@ class DetailActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityDetailBinding
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
@@ -32,6 +34,11 @@ class DetailActivity : AppCompatActivity() {
             binding.ivImage.setImageResource(drakor.photo)
             binding.tvSynopsis.text = drakor.synopsis
             binding.tvYear.text = "(${drakor.year})"
+            binding.tvTitle.text = "${getString(R.string.title)}: ${drakor.name}"
+            binding.tvGenres.text = "${getString(R.string.genres)}: ${drakor.genres}"
+            binding.tvEpisodes.text = "${getString(R.string.episodes)}: ${drakor.episodes}"
+            binding.tvAired.text = "${getString(R.string.aired)}: ${drakor.aired}"
+            binding.tvDuration.text = "${getString(R.string.duration)}: ${drakor.duration}"
         }
 
         binding.actionShare.setOnClickListener {

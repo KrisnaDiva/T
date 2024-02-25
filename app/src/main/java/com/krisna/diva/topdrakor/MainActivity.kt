@@ -36,6 +36,10 @@ class MainActivity : AppCompatActivity() {
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataSynopsis = resources.getStringArray(R.array.data_synopsis)
         val dataYear = resources.getStringArray(R.array.data_year)
+        val dataGenres = resources.getStringArray(R.array.data_genres)
+        val dataEpisodes = resources.getStringArray(R.array.data_episode)
+        val dataAired = resources.getStringArray(R.array.data_aired)
+        val dataDuration = resources.getStringArray(R.array.data_duration)
         val listDrakor = ArrayList<Drakor>()
         for (i in dataName.indices) {
             val drakor = Drakor(
@@ -43,7 +47,11 @@ class MainActivity : AppCompatActivity() {
                 dataName[i],
                 dataDescription[i],
                 dataSynopsis[i],
-                dataYear[i]
+                dataYear[i],
+                dataGenres[i],
+                dataEpisodes[i],
+                dataAired[i],
+                dataDuration[i],
             )
             listDrakor.add(drakor)
         }

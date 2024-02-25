@@ -10,4 +10,8 @@ data class Drakor(
     val description: String,
     val synopsis: String,
     val year: String,
+    val genres: String,
+    val episodes: String,
+    val aired: String,
+    val duration: String
 ): Parcelable

@@ -14,7 +14,7 @@
         android:padding="10dp">
 
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -22,32 +22,26 @@
 
             <TextView
                 android:id="@+id/tv_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/TitleTextView"
                 android:layout_marginEnd="5dp"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 tools:text="@string/drakor_name_temp" />
 
             <TextView
                 android:id="@+id/tv_year"
-                android:layout_width="0dp"
-                android:layout_weight="5"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"
+                style="@style/TitleTextView"
+                android:layout_toEndOf="@+id/tv_name"
                 tools:text="@string/drakor_year_temp" />
 
             <ImageButton
                 android:id="@+id/action_share"
-                android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
                 android:background="?android:attr/selectableItemBackground"
-                android:src="@drawable/share"
-                android:layout_gravity="center_vertical"/>
+                android:src="@drawable/share" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
         <ImageView
             android:id="@+id/iv_image"
@@ -59,52 +53,35 @@
 
         <TextView
             android:id="@+id/tv_synopsis"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/ContentTextView"
             android:layout_marginTop="20dp"
-            android:text="@string/drakor_synopsis_temp"
-            android:textSize="16sp" />
+            android:layout_marginBottom="20dp"
+            android:text="@string/drakor_synopsis_temp" />
 
-        <!--        <LinearLayout-->
-        <!--            android:id="@+id/ll_rating"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_gravity="center_horizontal"-->
-        <!--            android:orientation="horizontal">-->
+        <TextView
+            style="@style/TitleTextView"
+            android:layout_marginBottom="5dp"
+            android:text="@string/details" />
 
-        <!--            <ImageView-->
-        <!--                android:layout_width="32dp"-->
-        <!--                android:layout_height="32dp"-->
-        <!--                android:src="@drawable/star" />-->
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/ContentTextView" />
 
-        <!--            <TextView-->
-        <!--                android:id="@+id/tv_rating"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_gravity="center_vertical"-->
-        <!--                android:textSize="20sp"-->
-        <!--                tools:text="@string/darkor_rating_temp" />-->
-
-        <!--            <TextView-->
-        <!--                android:id="@+id/tv_users"-->
-        <!--                android:layout_width="wrap_content"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_gravity="center_vertical"-->
-        <!--                android:layout_marginStart="5dp"-->
-        <!--                android:layout_marginTop="5dp"-->
-        <!--                android:textColor="@color/sonic_silver"-->
-        <!--                tools:text="@string/darkor_users_temp" />-->
-        <!--        </LinearLayout>-->
-
-        <!--        <TextView-->
-        <!--            android:id="@+id/tv_type_episode"-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_gravity="center_horizontal"-->
-        <!--            android:layout_marginStart="6dp"-->
-        <!--            android:textSize="20sp"-->
-        <!--            tools:text="@string/drakor_episode_temp" />-->
+        <TextView
+            android:id="@+id/tv_genres"
+            style="@style/ContentTextView" />
 
 
+        <TextView
+            android:id="@+id/tv_episodes"
+            style="@style/ContentTextView" />
+
+        <TextView
+            android:id="@+id/tv_aired"
+            style="@style/ContentTextView" />
+
+        <TextView
+            android:id="@+id/tv_duration"
+            style="@style/ContentTextView" />
     </LinearLayout>
 </ScrollView>
